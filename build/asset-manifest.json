@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3f2b7c7.chunk.css",
+    "main.js": "/static/js/main.cb231376.chunk.js",
+    "main.js.map": "/static/js/main.cb231376.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.688a844e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.688a844e.js.map",
+    "static/css/2.1bff9edd.chunk.css": "/static/css/2.1bff9edd.chunk.css",
+    "static/js/2.96cba201.chunk.js": "/static/js/2.96cba201.chunk.js",
+    "static/js/2.96cba201.chunk.js.map": "/static/js/2.96cba201.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1bff9edd.chunk.css.map": "/static/css/2.1bff9edd.chunk.css.map",
+    "static/css/main.e3f2b7c7.chunk.css.map": "/static/css/main.e3f2b7c7.chunk.css.map",
+    "static/js/2.96cba201.chunk.js.LICENSE.txt": "/static/js/2.96cba201.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/three.13a56dcf.png",
+    "static/media/product.scss": "/static/media/product5.9f7d13ba.png",
+    "static/media/clinical-studies.scss": "/static/media/studies7.2d779e0f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.688a844e.js",
+    "static/css/2.1bff9edd.chunk.css",
+    "static/js/2.96cba201.chunk.js",
+    "static/css/main.e3f2b7c7.chunk.css",
+    "static/js/main.cb231376.chunk.js"
+  ]
+}

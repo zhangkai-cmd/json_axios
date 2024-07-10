@@ -1,0 +1,179 @@
+
+
+.product {
+    position: relative;
+
+    .first {
+        position: relative;
+        height: 207px;
+        background: #B2D1E0;
+
+        .img {
+            position: absolute;
+            z-index: 3;
+            width: 100%;
+            height: 207px;
+            background: url("../../static/product/product1.png") center bottom no-repeat;
+        }
+
+        .center {
+            position: absolute;
+            left: 0;
+            top: 300px;
+            bottom: 0;
+            right: 0;
+            z-index: 4;
+            margin: auto;
+            width: 410px;
+            height: 207px;
+            line-height: 207px;
+            border: 2px solid #B2D1E0;
+            background: #fff;
+
+            h2 {
+                text-align: center;
+            }
+        }
+
+        .right {
+            position: absolute;
+            right: 14%;
+            z-index: 4;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 347px;
+            height: 332px;
+            border: 20px solid #B2D1E0;
+            background: #fff;
+
+            p {
+                margin: 0;
+                padding: 0;
+                text-align: center;
+
+                &:first-child {
+                    margin-top: 30px;
+                }
+            }
+
+            .img {
+                margin: auto;
+                display: inline-block;
+                width: 222px;
+                height: 177px;
+                background: url("../../static/product/product2.png") center center no-repeat;
+            }
+
+        }
+    }
+
+    .two {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding: 0 20% ;
+        height: 360px;
+
+        ul {
+            height: 145px;
+            width: 604px;
+            list-style: none;
+            font-size: 12px;
+        }
+    }
+
+    .three,
+    .four,
+    .five,
+    .six,
+    .seven,
+    .eight{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 0 20%;
+        margin-right: 20px;
+
+        ul {
+            padding: 0;
+            padding-left: 15px;
+            font-size: 14px;
+        }
+
+        h3 {
+            margin:40px 0;
+            width: 616px;
+            font-size: 24px;
+        }
+
+        h4, h3, ul, p {
+            width: 616px;
+            font-family: "Avenir Next";
+        }
+
+        dl {
+
+            dd {
+                width: 616px;
+                font-family: "Avenir Next";
+            }
+        }
+    }
+
+    .six {
+        p {
+            position: relative;
+
+            &:first-child::before {
+                position: absolute;
+                left: -221px;
+                top: 0;
+                display: inline-block;
+                content: '';
+                width: 180px;
+                height: 191px;
+                background: url("../../static/product/product3.png") center center no-repeat;
+            }
+
+            &:nth-child(3)::before {
+                position: absolute;
+                left: -221px;
+                top: -40px;
+                display: inline-block;
+                content: '';
+                width: 180px;
+                height: 118px;
+                background: url("../../static/product/product4.png") center center no-repeat;
+            }
+        }
+    }
+
+    .seven {
+
+        p {
+            position: relative;
+
+            &:first-child::before {
+                position: absolute;
+                left: -221px;
+                top: 0;
+                display: inline-block;
+                content: '';
+                width: 180px;
+                height: 263px;
+                background: url("../../static/product/product5.png") center center no-repeat;
+            }
+        }
+    }
+
+    .eight {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+

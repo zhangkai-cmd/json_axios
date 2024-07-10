@@ -1,0 +1,236 @@
+
+.home {
+  width: 100%;
+
+  .first {
+    display: inline-block;
+    position: relative;
+    padding: 0 0 0 10%;
+    height: 374px;
+    width: 100%;
+    background: #fff;
+
+    .left {
+      position: absolute;
+      top: 20%;
+      z-index: 3;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 606px;
+      height: 173px;
+      background: #fff;
+
+      .hyper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 570px;
+        height: 107px;
+        border: 2px solid #B2D1E0;
+
+        h3 {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+
+    .right {
+      position: absolute;
+      right: 0;
+      width: 64%;
+      min-height: 469px;
+      background: url('../../static/home/first.png') right center no-repeat;
+    }
+  }
+
+  .two {
+    padding: 10% 15% 0 15%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 389px;
+    width: 100%;
+    background-color: #EFEFEF;
+
+    .title {
+      cursor: pointer;
+    }
+
+    p {
+      width: 604px;
+    }
+  }
+
+  .three {
+    padding: 5% 12%;
+    display: flex;
+    justify-content: space-around;
+
+    h3 {
+      cursor: pointer;
+    }
+
+    dl {
+      width: 404px;
+
+      span {
+        display: inline-block;
+        width: 292px;
+        height: 191px;
+      }
+
+      h3 {
+        color: #339DD1;
+        line-height: 80px;
+      }
+
+      &:first-child {
+        span {
+          background: url('../../static/home/second.png') center center no-repeat;
+        }
+      }
+
+      &:last-child {
+        span {
+          background: url('../../static/home/three.png') center center no-repeat;
+        }
+      }
+    }
+  }
+
+  .four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-color: #efefef;
+
+    .title {
+      cursor: pointer;
+    }
+
+    .content {
+      padding-top: 5%;
+      display: flex;
+      justify-content: space-around;
+      width: 1138px;
+      height: 566px;
+      background-color: #fff;
+
+      .left {
+        .four-title {
+          padding-bottom: 30px;
+        }
+      }
+
+      &> div {
+        width: 400px;
+
+        &:first-child {
+          width: 440px;
+        }
+      }
+
+      .right {
+        position: relative;
+
+        .img {
+          position: absolute;
+          top: 10px;
+          right: 0;
+          z-index: 3;
+          display: inline-block;
+          width: 346px;
+          height: 240px;
+          background: url('../../static/home/four.png') center center no-repeat;
+        }
+
+        .content {
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          position: absolute;
+          top: 12%;
+          width: 384px;
+          height: 306px;
+          border: 2px solid #B2D1E0;
+
+          p {
+            width: 281px;
+            color: #339DD1;
+          }
+        }
+      }
+
+    }
+  }
+
+  .five {
+    padding: 5% 10% 0 10%;
+    display: flex;
+    justify-content: space-around;
+    height: 347px;
+    background-color: #fff;
+
+    .title {
+      cursor: pointer;
+    }
+
+    .text {
+      width: 605px;
+
+      ul {
+        padding: 0;
+        list-style: none;
+        padding-left: 16px;
+
+        li {
+          &::before {
+            content: '';
+            display: inline-block;
+            margin-right: 10px;
+            width: 10px;
+            height: 10px;
+            background: #d8d8d8;
+            border: 1px solid #979797;
+          }
+        }
+      }
+    }
+  }
+}
+
+h3 {
+  font-size: 24px;
+  text-align: left;
+}
+
+
+.title {
+  display: inline-block;
+  position: relative;
+  padding-left: 60px;
+}
+
+.title::before {
+  position: absolute;
+  left: 0;
+  top: 16px;
+  display: inline-block;
+  content: '';
+  width: 55px;
+  height: 3px;
+  background-color: #39393B;
+}
+
+.title h3 {
+  margin: 0;
+}
+
+p, li, dt, dd {
+  font-family: "Avenir Next";
+  font-size: 14px;
+}

@@ -1,0 +1,114 @@
+
+.lwoff {
+    position: relative;
+
+    .first {
+        position: relative;
+        height: 403px;
+        background: #efefef;
+
+        .right {
+            position: absolute;
+            right: 0;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: 40px;
+            width: 50%;
+            height: 100%;
+            background: #B2D1E0;
+
+            p {
+                margin-left: 20px;
+                width: 412px;
+                color: #39393B;
+            }
+        }
+
+        dl {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 292px;
+            height: 256px;
+
+            dt {
+                height: 191px;
+                background: url('../../static/home/second.png') center center no-repeat;
+            }
+
+            dd {
+                height: 65px;
+                line-height: 65px;
+                background: #B2D1E0;
+
+                h3 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .two {
+        padding: 80px 18%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        background: #fff;
+
+        h3, h4 {
+            width: 604px;
+        }
+
+        h3 {
+            padding-bottom: 30px;
+        }
+
+        h4 {
+            padding-top: 40px;
+        }
+
+        p {
+            display: inline-block;
+            width: 604px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            padding-top: 30px;
+            list-style: none;
+            width: 604px;
+        }
+
+        .img {
+            padding-top: 80px;
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+            width: 604px;
+            height: 220px;
+
+            span {
+                display: inline-block;
+
+                &:first-child {
+                    width: 165px;
+                    height: 200px;
+                    background: url('../../static/andre/andre1.png') center center no-repeat;
+                }
+
+                &:last-child {
+                    width: 298px;
+                    height: 200px;
+                    background: url('../../static/andre/andre2.png') center center no-repeat;
+                }
+            }
+        }
+    }
+}
